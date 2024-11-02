@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 import {useDispatch} from 'react-redux';
-import {AddToDo} from "../../redux/state/todo/todoSlice";
+import {AddToDo} from "../redux/state/todo/todoSlice.js";
 
 const CreateToDo = () => {
 

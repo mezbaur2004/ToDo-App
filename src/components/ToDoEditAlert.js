@@ -1,6 +1,6 @@
 import Swal from "sweetalert2";
-import store from "../../redux/store/store";
-import {EditToDo} from "../../redux/state/todo/todoSlice";
+import store from "../redux/store/store.js";
+import {EditToDo} from "../redux/state/todo/todoSlice.js";
 
 export function TodoEditAlert(i,item){
 

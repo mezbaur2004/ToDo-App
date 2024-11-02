@@ -1,6 +1,6 @@
 import Swal from "sweetalert2";
-import store from "../../redux/store/store";
-import {RemoveToDo} from "../../redux/state/todo/todoSlice";
+import store from "../redux/store/store.js";
+import {RemoveToDo} from "../redux/state/todo/todoSlice.js";
 export function ToDoDeleteAlert(i){
     Swal.fire({
         title: 'Are you sure?',

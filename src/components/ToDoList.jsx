@@ -1,7 +1,7 @@
 import React from 'react';
 import {useSelector} from "react-redux";
 import {ToDoDeleteAlert} from "./ToDoDeleteAlert.js";
-import {TodoEditAlert} from "./TodoEditAlert";
+import {TodoEditAlert} from "./ToDoEditAlert.js";
 
 const ToDoList = () => {
 
